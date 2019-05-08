@@ -2,11 +2,12 @@ public class Guest {
 
     private String name;
     private int age;
-    private int roomNumber = 0;
+    private int roomNumber;
 
     public Guest(String name, int age) {
         this.name = name;
         this.age = age;
+        this.roomNumber = 0;
     }
 
     public String getName() {
